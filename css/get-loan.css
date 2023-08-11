@@ -225,6 +225,8 @@ body.no-scroll {
     line-height: normal;
     color: var(--input-font-color);
     position: relative;
+    background-color: var(--background-primary);
+    border-radius: var(--input-border-radius);
 }
 
 .input__label {
@@ -242,8 +244,11 @@ body.no-scroll {
     font-size: var(--input-font-size);
     font-weight: inherit;
     color: inherit;
+    position: relative;
+    z-index: 2;
     border: none;
     outline: none;
+    background: none;
 }
 
 .input__main:not(textarea) {
@@ -281,6 +286,7 @@ textarea.input__main {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     border: 1px solid var(--input-border-color);
     border-radius: var(--input-border-radius);
     transition: border 0.15s linear;
