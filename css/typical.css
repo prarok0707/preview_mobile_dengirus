@@ -225,7 +225,7 @@ body.no-scroll {
 }
 
 .input__label {
-    padding: 0 0.833em;
+    padding: 0 15px;
     margin: 0 0 2px 0;
     display: block;
     font-size: 0.778em;
@@ -234,7 +234,7 @@ body.no-scroll {
 .input__main {
     width: 100%;
     height: 100%;
-    padding: 0 0.833em;
+    padding: 0 15px;
     display: block;
     font-size: 1em;
     font-weight: inherit;
@@ -375,7 +375,7 @@ textarea.input__main {
 }
 
 .select__header {
-    padding: 0.556em 0.833em;
+    padding: 0.556em 15px;
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--input-border-color);
@@ -388,7 +388,7 @@ textarea.input__main {
 
 .select__header::after {
     content: "";
-    width: calc(100% - 0.833em * 2);
+    width: calc(100% - 30px);
     height: 1px;
     display: block;
     background-color: var(--input-border-color);
