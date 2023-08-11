@@ -21,6 +21,8 @@
     --button-font-color: #ffffff;
     --button-background-primary: #f45730;
     --button-background-dark: #2f3c44;
+    --input-font-size: 18px;
+    --input-font-size-label: 14px;
     --input-font-color: #2f3c44;
     --input-placeholder-font-color: #798389;
     --input-border-color: #c8c8c8;
@@ -214,9 +216,8 @@ body.no-scroll {
 }
 
 .input__body {
-    padding: 0.556em 0;
+    padding: 10px 0;
     display: block;
-    font-size: 1.125rem;
     font-weight: 500;
     font-style: normal;
     line-height: normal;
@@ -226,9 +227,9 @@ body.no-scroll {
 
 .input__label {
     padding: 0 15px;
-    margin: 0 0 2px 0;
+    margin: 0 0 4px 0;
     display: block;
-    font-size: 0.778em;
+    font-size: var(--input-font-size-label);
 }
 
 .input__main {
@@ -236,7 +237,7 @@ body.no-scroll {
     height: 100%;
     padding: 0 15px;
     display: block;
-    font-size: 1em;
+    font-size: var(--input-font-size);
     font-weight: inherit;
     color: inherit;
     border: none;
@@ -267,7 +268,7 @@ body.no-scroll {
 }
 
 textarea.input__main {
-    height: 3.333em;
+    height: 80px;
     resize: none;
 }
 

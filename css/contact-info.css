@@ -21,6 +21,8 @@
     --button-font-color: #ffffff;
     --button-background-primary: #f45730;
     --button-background-dark: #2f3c44;
+    --input-font-size: 18px;
+    --input-font-size-label: 14px;
     --input-font-color: #2f3c44;
     --input-placeholder-font-color: #798389;
     --input-border-color: #c8c8c8;
@@ -214,9 +216,8 @@ body.no-scroll {
 }
 
 .input__body {
-    padding: 0.556em 0;
+    padding: 10px 0;
     display: block;
-    font-size: 1.125rem;
     font-weight: 500;
     font-style: normal;
     line-height: normal;
@@ -226,9 +227,9 @@ body.no-scroll {
 
 .input__label {
     padding: 0 15px;
-    margin: 0 0 2px 0;
+    margin: 0 0 4px 0;
     display: block;
-    font-size: 0.778em;
+    font-size: var(--input-font-size-label);
 }
 
 .input__main {
@@ -236,7 +237,7 @@ body.no-scroll {
     height: 100%;
     padding: 0 15px;
     display: block;
-    font-size: 1em;
+    font-size: var(--input-font-size);
     font-weight: inherit;
     color: inherit;
     border: none;
@@ -267,7 +268,7 @@ body.no-scroll {
 }
 
 textarea.input__main {
-    height: 3.333em;
+    height: 80px;
     resize: none;
 }
 
@@ -428,18 +429,17 @@ textarea.input__main {
 
 .autocomplete-suggestions {
     max-height: 180px !important;
-    padding: 0.417em 0.833em;
-    font-size: 1.125rem;
+    padding: 7.5px 15px;
     overflow: auto;
-    transform: translate3d(0, 0.833em, 0);
+    transform: translate3d(0, 15px, 0);
     border: 1px solid var(--input-border-color-active);
     border-radius: var(--input-border-radius);
     background-color: var(--background-primary);
 }
 
 .autocomplete-suggestion {
-    padding: 0.417em 0;
-    font-size: 1em;
+    padding: 7.5px 0;
+    font-size: var(--input-font-size);
     font-weight: 500;
     font-style: normal;
     line-height: normal;
