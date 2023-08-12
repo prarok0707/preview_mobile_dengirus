@@ -418,6 +418,10 @@ body.no-scroll {
     gap: 10px;
 }
 
+.events-ribbon__main-block {
+    width: 100%;
+}
+
 .events-ribbon__main-block:not(:last-child) {
     margin: 0 0 0 0;
 }
@@ -471,7 +475,7 @@ body.no-scroll {
 }
 
 .footer__logo {
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .footer__copyright {
