@@ -446,6 +446,13 @@ body.no-scroll {
     overflow: hidden;
 }
 
+.offers__logo img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .offers__info {
     margin: 0 0 20px 0;
     display: flex;
