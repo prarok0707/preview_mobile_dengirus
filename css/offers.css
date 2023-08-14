@@ -428,6 +428,10 @@ body.no-scroll {
     gap: 20px;
 }
 
+.offers__item {
+    display: block;
+}
+
 .offers__item:not(:last-child) {
     margin: 0;
 }
